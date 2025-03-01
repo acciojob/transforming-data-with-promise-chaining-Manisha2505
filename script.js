@@ -1,5 +1,4 @@
 //your JS code here. If required.
-//your JS code here. If required.
 document.getElementById('btn').addEventListener('click', function() {
   const number = parseFloat(document.getElementById('ip').value);
   processNumber(number);
