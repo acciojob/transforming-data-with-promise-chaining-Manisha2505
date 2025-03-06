@@ -7,7 +7,7 @@ document.getElementById('btn').addEventListener('click', function() {
 function processNumber(num) {
   new Promise((resolve) => {
     setTimeout(() => {
-      document.getElementById('output').textContent = Result: ${num};
+      document.getElementById('output').textContent = `Result: ${num}`;
       resolve(num);
     }, 2000);
   })
